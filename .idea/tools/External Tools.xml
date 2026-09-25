@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolSet name="External Tools">
+  <tool name="SmartCodeReviewer" description="Baut das Projekt bei Bedarf neu und fuehrt SmartCodeReviewer fuer die aktuelle Java-Datei aus (Checkstyle + Gemini-Review), Ergebnis im Diff-Viewer." showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true" exec="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$/bin/smartcodereviewer.cmd" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

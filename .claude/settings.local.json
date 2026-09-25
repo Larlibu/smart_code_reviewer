@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw.cmd compile *)",
+      "Bash(Remove-Item *)",
+      "Bash(./mvnw.cmd test *)",
+      "Bash(./mvnw.cmd package *)",
+      "Bash(powershell.exe *)",
+      "Bash(java -jar target/SmartCodeReviewer-0.0.1-SNAPSHOT-boot.jar \"F:/AppAkademie/workplace/SmartCodeReviewer/src/main/java/de/larlibu/smartcodereviewer/pipeline/CheckstyleFixer.java\")"
+    ]
+  }
+}
